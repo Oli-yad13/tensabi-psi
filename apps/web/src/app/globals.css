@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --purple-primary: #7C3AED;
+    --purple-light: #EDE9FE;
+    --purple-dark: #5B21B6;
+    --green-accent: #10B981;
+    --red-accent: #EF4444;
+    --yellow-accent: #F59E0B;
+  }
+}
+
+body {
+  background-color: #f9fafb;
+}

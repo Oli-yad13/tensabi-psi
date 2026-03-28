@@ -1,0 +1,115 @@
+// This is your Prisma schema file
+// Based on the Tena-Sabi HIV Self-Test module design
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Pharmacy / Test Kit Finder ───────────────────────────────────────────────
+
+model Pharmacy {
+  id          String        @id @default(cuid())
+  name        String
+  address     String
+  city        String        @default("Addis Ababa")
+  latitude    Float
+  longitude   Float
+  phone       String?
+  isOpen      Boolean       @default(true)
+  hoursJson   Json?         // { mon: "8:00-21:00", ... }
+  distanceKm  Float?        // populated at query time, not stored
+  testKits    PharmacyKit[]
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+}
+
+model TestKit {
+  id          String        @id @default(cuid())
+  name        String        // e.g. "HIV Oral Self-Test"
+  type        KitType
+  sampleType  SampleType
+  minPriceETB Int
+  maxPriceETB Int
+  pharmacies  PharmacyKit[]
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+}
+
+model PharmacyKit {
+  id         String   @id @default(cuid())
+  pharmacy   Pharmacy @relation(fields: [pharmacyId], references: [id])
+  pharmacyId String
+  kit        TestKit  @relation(fields: [kitId], references: [id])
+  kitId      String
+  inStock    Boolean  @default(true)
+  stockLevel StockLevel @default(AVAILABLE)
+  priceETB   Int
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([pharmacyId, kitId])
+}
+
+enum KitType {
+  ORAL_SALIVA
+  FINGER_PRICK
+  COMBO_ANTIGEN
+}
+
+enum SampleType {
+  ORAL
+  BLOOD
+  BOTH
+}
+
+enum StockLevel {
+  AVAILABLE
+  LOW_STOCK
+  OUT_OF_STOCK
+}
+
+// ─── Educational Content ──────────────────────────────────────────────────────
+
+model EducationModule {
+  id          String    @id @default(cuid())
+  slug        String    @unique  // e.g. "how-hiv-self-testing-works"
+  title       String
+  description String?
+  order       Int       @default(0)
+  sections    Section[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Section {
+  id          String          @id @default(cuid())
+  moduleId    String
+  module      EducationModule @relation(fields: [moduleId], references: [id])
+  order       Int
+  title       String
+  body        String          @db.Text
+  mediaUrl    String?
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+}
+
+// ─── Test Results (optional — if users log results) ──────────────────────────
+
+model TestResult {
+  id          String       @id @default(cuid())
+  sessionId   String       @unique @default(cuid()) // anonymous session
+  result      ResultType?
+  testedAt    DateTime     @default(now())
+  nextSteps   Json?        // array of recommended next steps
+}
+
+enum ResultType {
+  NEGATIVE
+  POSITIVE
+  INVALID
+}
