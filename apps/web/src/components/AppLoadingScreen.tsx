@@ -29,44 +29,33 @@ export default function AppLoadingScreen() {
       }}
     >
       {/* Center content */}
-      <div className="flex-1 flex flex-col items-center justify-center gap-6 px-6">
-        <div className="relative flex items-center justify-center">
-          <div
-            className="absolute h-44 w-44 rounded-full"
+      <div className="flex-1 flex flex-col items-center justify-center gap-7 px-6">
+        <div
+          className="relative w-[min(88vw,640px)]"
+          style={{
+            animation: 'logoIntro 0.95s cubic-bezier(0.22, 1, 0.36, 1) both, logoSway 3.8s ease-in-out 1s infinite',
+          }}
+        >
+          <img
+            src="/tena-sabi-logo.png"
+            alt="Tena Sabi"
+            width="2048"
+            height="671"
+            className="w-full h-auto object-contain"
             style={{
-              background: 'radial-gradient(circle, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.06) 45%, rgba(255,255,255,0) 72%)',
-              filter: 'blur(10px)',
-              animation: 'haloPulse 2.8s ease-in-out infinite',
+              filter: 'drop-shadow(0 18px 34px rgba(1, 44, 34, 0.18))',
             }}
           />
-          <div
-            className="relative w-[min(82vw,520px)] rounded-[2rem] px-5 py-4"
-            style={{
-              background: 'rgba(255,255,255,0.12)',
-              border: '1px solid rgba(255,255,255,0.16)',
-              backdropFilter: 'blur(10px)',
-              boxShadow: '0 24px 60px rgba(1, 46, 37, 0.22)',
-              animation: 'logoFloat 3.2s ease-in-out infinite',
-            }}
-          >
-            <img
-              src="/tena-sabi-logo.png"
-              alt="Tena Sabi"
-              width="2048"
-              height="671"
-              className="w-full h-auto object-contain"
-            />
-          </div>
         </div>
 
         {/* Pulse dots loader */}
-        <div className="flex gap-2 mt-2">
+        <div className="flex gap-2 mt-1">
           {[0, 1, 2].map((i) => (
             <span
               key={i}
               className="w-2 h-2 rounded-full bg-white/40"
               style={{
-                animation: `pulse 1.2s ease-in-out ${i * 0.2}s infinite`,
+                animation: `pulse 1.35s ease-in-out ${i * 0.18}s infinite`,
               }}
             />
           ))}
@@ -98,14 +87,14 @@ export default function AppLoadingScreen() {
           50%       { opacity: 1;   transform: scale(1.1); }
         }
 
-        @keyframes logoFloat {
-          0%, 100% { transform: translateY(0px) scale(1); }
-          50% { transform: translateY(-8px) scale(1.015); }
+        @keyframes logoIntro {
+          0% { opacity: 0; transform: translateY(18px) scale(0.965); }
+          100% { opacity: 1; transform: translateY(0) scale(1); }
         }
 
-        @keyframes haloPulse {
-          0%, 100% { opacity: 0.7; transform: scale(0.92); }
-          50% { opacity: 1; transform: scale(1.05); }
+        @keyframes logoSway {
+          0%, 100% { transform: translateY(0) rotate(0deg); }
+          50% { transform: translateY(-5px) rotate(-0.4deg); }
         }
       `}</style>
     </div>
