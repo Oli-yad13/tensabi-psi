@@ -5,6 +5,13 @@ import { redirect } from 'next/navigation';
 
 const COOKIE = 'admin_session';
 
+function isSecureCookie() {
+  const override = process.env.ADMIN_COOKIE_SECURE;
+  if (override === 'true') return true;
+  if (override === 'false') return false;
+  return process.env.NODE_ENV === 'production';
+}
+
 export async function login(formData: FormData) {
   const username = formData.get('username') as string;
   const password = formData.get('password') as string;
@@ -20,7 +27,7 @@ export async function login(formData: FormData) {
   const jar = await cookies();
   jar.set(COOKIE, secret, {
     httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
+    secure: isSecureCookie(),
     sameSite: 'lax',
     path: '/',
     maxAge: 60 * 60 * 8, // 8 hours
