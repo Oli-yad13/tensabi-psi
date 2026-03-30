@@ -26,16 +26,14 @@ export default function NewKitPage() {
     name: '',
     type: 'ORAL_SALIVA',
     sampleType: 'ORAL',
-    minPriceETB: '',
-    maxPriceETB: '',
+    priceETB: '',
   });
 
   const { mutate: create, isPending } = useMutation({
     mutationFn: () =>
       api.post('/kits', {
         ...form,
-        minPriceETB: parseInt(form.minPriceETB),
-        maxPriceETB: parseInt(form.maxPriceETB),
+        priceETB: parseInt(form.priceETB),
       }).then((r) => r.data),
     onSuccess: () => {
       qc.invalidateQueries({ queryKey: ['kits'] });
@@ -110,14 +108,9 @@ export default function NewKitPage() {
             </div>
           </Field>
 
-          <div className="grid grid-cols-2 gap-4">
-            <Field label="Min Price (ETB) *">
-              <input className={input} type="number" min="0" value={form.minPriceETB} onChange={(e) => set('minPriceETB', e.target.value)} placeholder="150" />
-            </Field>
-            <Field label="Max Price (ETB) *">
-              <input className={input} type="number" min="0" value={form.maxPriceETB} onChange={(e) => set('maxPriceETB', e.target.value)} placeholder="300" />
-            </Field>
-          </div>
+          <Field label="Price (ETB) *">
+            <input className={input} type="number" min="0" value={form.priceETB} onChange={(e) => set('priceETB', e.target.value)} placeholder="650" />
+          </Field>
         </div>
 
         <div className="flex gap-3">
@@ -126,7 +119,7 @@ export default function NewKitPage() {
           </Link>
           <button
             onClick={() => create()}
-            disabled={isPending || !form.name || !form.minPriceETB || !form.maxPriceETB}
+            disabled={isPending || !form.name || !form.priceETB}
             className="flex-1 flex items-center justify-center gap-2 bg-[#037561] text-white rounded-xl py-3 font-bold text-sm hover:bg-[#024d40] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
             <Save className="w-4 h-4" />

@@ -92,9 +92,7 @@ export default function AdminKitsPage() {
                   </td>
                   <td className="px-6 py-4 text-slate-500 text-xs">{SAMPLE_LABELS[k.sampleType] ?? k.sampleType}</td>
                   <td className="px-6 py-4 text-slate-500 text-xs">
-                    {k.minPriceETB === k.maxPriceETB
-                      ? `${k.minPriceETB} ETB`
-                      : `${k.minPriceETB}–${k.maxPriceETB} ETB`}
+                    {`${k.priceETB ?? k.minPriceETB} ETB`}
                   </td>
                   <td className="px-6 py-4 text-slate-500 text-xs">
                     {k.pharmacies?.length ?? 0} location{(k.pharmacies?.length ?? 0) !== 1 ? 's' : ''}

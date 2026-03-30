@@ -17,6 +17,5 @@ export class CreateKitDto {
   @ApiProperty() @IsString() name: string;
   @ApiProperty({ enum: KitType }) @IsEnum(KitType) type: KitType;
   @ApiProperty({ enum: SampleType }) @IsEnum(SampleType) sampleType: SampleType;
-  @ApiProperty() @IsNumber() @Min(0) minPriceETB: number;
-  @ApiProperty() @IsNumber() @Min(0) maxPriceETB: number;
+  @ApiProperty() @IsNumber() @Min(0) priceETB: number;
 }

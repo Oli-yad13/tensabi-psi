@@ -31,7 +31,7 @@ export default function EditKitPage({ params }: { params: Promise<{ id: string }
   });
 
   const [form, setForm] = useState({
-    name: '', type: 'ORAL_SALIVA', sampleType: 'ORAL', minPriceETB: '', maxPriceETB: '',
+    name: '', type: 'ORAL_SALIVA', sampleType: 'ORAL', priceETB: '',
   });
 
   useEffect(() => {
@@ -40,8 +40,7 @@ export default function EditKitPage({ params }: { params: Promise<{ id: string }
       name: kit.name,
       type: kit.type,
       sampleType: kit.sampleType,
-      minPriceETB: String(kit.minPriceETB),
-      maxPriceETB: String(kit.maxPriceETB),
+      priceETB: String(kit.priceETB ?? kit.minPriceETB),
     });
   }, [kit]);
 
@@ -49,8 +48,7 @@ export default function EditKitPage({ params }: { params: Promise<{ id: string }
     mutationFn: () =>
       api.patch(`/kits/${id}`, {
         ...form,
-        minPriceETB: parseInt(form.minPriceETB),
-        maxPriceETB: parseInt(form.maxPriceETB),
+        priceETB: parseInt(form.priceETB),
       }).then((r) => r.data),
     onSuccess: () => {
       qc.invalidateQueries({ queryKey: ['kits'] });
@@ -149,14 +147,9 @@ export default function EditKitPage({ params }: { params: Promise<{ id: string }
             </div>
           </Field>
 
-          <div className="grid grid-cols-2 gap-4">
-            <Field label="Min Price (ETB) *">
-              <input className={input} type="number" min="0" value={form.minPriceETB} onChange={(e) => set('minPriceETB', e.target.value)} />
-            </Field>
-            <Field label="Max Price (ETB) *">
-              <input className={input} type="number" min="0" value={form.maxPriceETB} onChange={(e) => set('maxPriceETB', e.target.value)} />
-            </Field>
-          </div>
+          <Field label="Price (ETB) *">
+            <input className={input} type="number" min="0" value={form.priceETB} onChange={(e) => set('priceETB', e.target.value)} />
+          </Field>
         </div>
 
         <div className="flex gap-3">
@@ -165,7 +158,7 @@ export default function EditKitPage({ params }: { params: Promise<{ id: string }
           </Link>
           <button
             onClick={() => save()}
-            disabled={saving}
+            disabled={saving || !form.name || !form.priceETB}
             className="flex-1 flex items-center justify-center gap-2 bg-[#037561] text-white rounded-xl py-3 font-bold text-sm hover:bg-[#024d40] disabled:opacity-50 transition-colors"
           >
             <Save className="w-4 h-4" />

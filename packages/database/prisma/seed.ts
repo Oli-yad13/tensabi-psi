@@ -12,8 +12,8 @@ async function main() {
       name: 'HIV Oral Self-Test',
       type: KitType.ORAL_SALIVA,
       sampleType: SampleType.ORAL,
-      minPriceETB: 150,
-      maxPriceETB: 350,
+      minPriceETB: 650,
+      maxPriceETB: 650,
     },
   });
 
@@ -25,8 +25,8 @@ async function main() {
       name: 'Finger-Prick Test',
       type: KitType.FINGER_PRICK,
       sampleType: SampleType.BLOOD,
-      minPriceETB: 180,
-      maxPriceETB: 280,
+      minPriceETB: 650,
+      maxPriceETB: 650,
     },
   });
 
@@ -38,8 +38,8 @@ async function main() {
       name: 'Combo Antigen Test',
       type: KitType.COMBO_ANTIGEN,
       sampleType: SampleType.BLOOD,
-      minPriceETB: 200,
-      maxPriceETB: 420,
+      minPriceETB: 650,
+      maxPriceETB: 650,
     },
   });
 
@@ -105,22 +105,22 @@ async function main() {
   await prisma.pharmacyKit.upsert({
     where: { pharmacyId_kitId: { pharmacyId: selamPharmacy.id, kitId: oral.id } },
     update: {},
-    create: { pharmacyId: selamPharmacy.id, kitId: oral.id, priceETB: 350, stockLevel: StockLevel.AVAILABLE, inStock: true },
+    create: { pharmacyId: selamPharmacy.id, kitId: oral.id, priceETB: 650, stockLevel: StockLevel.AVAILABLE, inStock: true },
   });
   await prisma.pharmacyKit.upsert({
     where: { pharmacyId_kitId: { pharmacyId: selamPharmacy.id, kitId: finger.id } },
     update: {},
-    create: { pharmacyId: selamPharmacy.id, kitId: finger.id, priceETB: 180, stockLevel: StockLevel.AVAILABLE, inStock: true },
+    create: { pharmacyId: selamPharmacy.id, kitId: finger.id, priceETB: 650, stockLevel: StockLevel.AVAILABLE, inStock: true },
   });
   await prisma.pharmacyKit.upsert({
     where: { pharmacyId_kitId: { pharmacyId: selamPharmacy.id, kitId: combo.id } },
     update: {},
-    create: { pharmacyId: selamPharmacy.id, kitId: combo.id, priceETB: 420, stockLevel: StockLevel.LOW_STOCK, inStock: true },
+    create: { pharmacyId: selamPharmacy.id, kitId: combo.id, priceETB: 650, stockLevel: StockLevel.LOW_STOCK, inStock: true },
   });
   await prisma.pharmacyKit.upsert({
     where: { pharmacyId_kitId: { pharmacyId: kidusPharmacy.id, kitId: oral.id } },
     update: {},
-    create: { pharmacyId: kidusPharmacy.id, kitId: oral.id, priceETB: 200, stockLevel: StockLevel.AVAILABLE, inStock: true },
+    create: { pharmacyId: kidusPharmacy.id, kitId: oral.id, priceETB: 650, stockLevel: StockLevel.AVAILABLE, inStock: true },
   });
 
   // Education modules

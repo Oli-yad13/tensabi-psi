@@ -3,6 +3,7 @@ export interface TestKit {
   name: string;
   type: 'ORAL_SALIVA' | 'FINGER_PRICK' | 'COMBO_ANTIGEN';
   sampleType: 'ORAL' | 'BLOOD' | 'BOTH';
+  priceETB?: number;
   minPriceETB: number;
   maxPriceETB: number;
 }
