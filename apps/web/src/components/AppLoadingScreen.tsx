@@ -29,39 +29,34 @@ export default function AppLoadingScreen() {
       }}
     >
       {/* Center content */}
-      <div className="flex-1 flex flex-col items-center justify-center gap-5 px-8">
-        {/* App icon */}
-        <div
-          className="w-20 h-20 rounded-3xl flex items-center justify-center"
-          style={{ background: 'rgba(255,255,255,0.15)', backdropFilter: 'blur(8px)' }}
-        >
-          <svg viewBox="0 0 40 40" className="w-10 h-10" fill="none" aria-hidden>
-            {/* Shield shape */}
-            <path
-              d="M20 4 L34 10 L34 22 C34 29.5 27.5 35.5 20 38 C12.5 35.5 6 29.5 6 22 L6 10 Z"
-              fill="white"
-              fillOpacity="0.9"
-            />
-            {/* Checkmark */}
-            <path
-              d="M13 20 L18 25 L27 15"
-              stroke="#037561"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-
-        {/* App name */}
-        <div className="text-center">
-          <h1
-            className="text-white text-3xl tracking-tight"
-            style={{ fontWeight: 900, letterSpacing: '-0.02em' }}
+      <div className="flex-1 flex flex-col items-center justify-center gap-6 px-6">
+        <div className="relative flex items-center justify-center">
+          <div
+            className="absolute h-44 w-44 rounded-full"
+            style={{
+              background: 'radial-gradient(circle, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.06) 45%, rgba(255,255,255,0) 72%)',
+              filter: 'blur(10px)',
+              animation: 'haloPulse 2.8s ease-in-out infinite',
+            }}
+          />
+          <div
+            className="relative w-[min(82vw,520px)] rounded-[2rem] px-5 py-4"
+            style={{
+              background: 'rgba(255,255,255,0.12)',
+              border: '1px solid rgba(255,255,255,0.16)',
+              backdropFilter: 'blur(10px)',
+              boxShadow: '0 24px 60px rgba(1, 46, 37, 0.22)',
+              animation: 'logoFloat 3.2s ease-in-out infinite',
+            }}
           >
-            TenaSabi
-          </h1>
-          <p className="text-white/60 text-sm font-medium mt-1">HIV Self-Test</p>
+            <img
+              src="/tena-sabi-logo.png"
+              alt="Tena Sabi"
+              width="2048"
+              height="671"
+              className="w-full h-auto object-contain"
+            />
+          </div>
         </div>
 
         {/* Pulse dots loader */}
@@ -101,6 +96,16 @@ export default function AppLoadingScreen() {
         @keyframes pulse {
           0%, 100% { opacity: 0.3; transform: scale(0.8); }
           50%       { opacity: 1;   transform: scale(1.1); }
+        }
+
+        @keyframes logoFloat {
+          0%, 100% { transform: translateY(0px) scale(1); }
+          50% { transform: translateY(-8px) scale(1.015); }
+        }
+
+        @keyframes haloPulse {
+          0%, 100% { opacity: 0.7; transform: scale(0.92); }
+          50% { opacity: 1; transform: scale(1.05); }
         }
       `}</style>
     </div>
