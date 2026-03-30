@@ -13,19 +13,24 @@ datasource db {
 // ─── Pharmacy / Test Kit Finder ───────────────────────────────────────────────
 
 model Pharmacy {
-  id          String        @id @default(cuid())
-  name        String
-  address     String
-  city        String        @default("Addis Ababa")
-  latitude    Float
-  longitude   Float
-  phone       String?
-  isOpen      Boolean       @default(true)
-  hoursJson   Json?         // { mon: "8:00-21:00", ... }
-  distanceKm  Float?        // populated at query time, not stored
-  testKits    PharmacyKit[]
-  createdAt   DateTime      @default(now())
-  updatedAt   DateTime      @updatedAt
+  id           String        @id @default(cuid())
+  name         String
+  address      String
+  city         String        @default("Addis Ababa")
+  latitude     Float
+  longitude    Float
+  phone        String?
+  isOpen       Boolean       @default(true)
+  locationType LocationType  @default(PHARMACY)
+  hoursJson    Json?         // { mon: "8:00-21:00", ... }
+  testKits     PharmacyKit[]
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+}
+
+enum LocationType {
+  PHARMACY
+  TESTING_CENTER
 }
 
 model TestKit {

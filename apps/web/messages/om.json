@@ -1,0 +1,386 @@
+{
+  "common": {
+    "back": "Duubatti",
+    "open": "Banaa",
+    "closed": "Cufaa",
+    "learnMore": "Dabalata Baradhu",
+    "comingSoon": "Dhihotti Dhufa",
+    "privacyNote": "Dhuunfummaan kee eegameera.",
+    "privacyDetail": "Sakatta'insa maqaa malee. Hayyama kee malee bu'aan hin kuufamu.",
+    "noSignup": "Galmee Hin Barbaachisu",
+    "anonymous": "Maqaa Malee",
+    "free": "Kaffaltii Malee",
+    "share": "Qoodi"
+  },
+  "lang": {
+    "en": "English",
+    "am": "አማርኛ",
+    "om": "Afaan Oromoo"
+  },
+  "home": {
+    "tagline": "Tena-Sabi",
+    "headline": "Dhuunfaatti\nQori.\nHaala Kee\nBeeki.",
+    "description": "Kutaalee qorannoo HIV ORAQuick si dhiyoo jiran barbaadi — %100 maqaa malee, qajeelfama kaffaltii malee.",
+    "stats": {
+      "locations": "Bakkeewwan",
+      "accurate": "Sirri",
+      "dataStored": "Deetaan Kuufame"
+    },
+    "cta": "Eegali",
+    "footer": "Galmee Hin Barbaachisu · Maqaa Malee · Kaffaltii Malee"
+  },
+  "hivTest": {
+    "tagline": "Qorannoo HIV Ofii",
+    "shopZemenGebya": "Zemen Gebya irratti bitadhu",
+    "headline": "Dhuunfaatti Qori.\nHaala Kee\nBeeki.",
+    "description": "Kutaalee ORAQuick si dhiyoo jiran barbaadi fi akkamitti sirriitti itti fayyadamuu baradhu.",
+    "stats": {
+      "pharmacies": "Farmaasiiwwan",
+      "accuracy": "Sirriitti",
+      "guidance": "Qajeelfama"
+    },
+    "primaryActions": {
+      "findKits": "Kutaalee Qorannoo Si Dhiyoo Barbaadi",
+      "findKitsSub": "Farmaasii ORAQuick qabu sakatta'i",
+      "howItWorks": "Qorannoon Ofii Akkamitti Hojjeta",
+      "howItWorksSub": "Saayinsii, sirriitti fi yeroo eegannoo"
+    },
+    "secondaryActions": {
+      "howToUse": "Akkamitti Itti Fayyadamuu",
+      "howToUseSub": "Qajeelfama tarkaanfii 5",
+      "readResults": "Bu'aa Dubbisi",
+      "readResultsSub": "Qorannoo kee hubadhu"
+    },
+    "support": {
+      "sectionTitle": "Deeggarsa fi Barumsa",
+      "chat": "Waan Kamiyyuu Gaafadhu",
+      "chatSub": "Gargaaraa maqaa malee",
+      "community": "Hawaasa",
+      "communitySub": "Kophaa miti",
+      "learn": "Leenjii Viidiyoo",
+      "learnSub": "Ariitii keetiin baradhu",
+      "sexualHealth": "Fayyaa Saalaa",
+      "sexualHealthSub": "Odeeffannoo fi ittisa STI"
+    }
+  },
+  "findKits": {
+    "title": "Kutaalee Qorannoo Barbaadi",
+    "subtitle": "ORAQuick · Si Dhiyoo",
+    "searchPlaceholder": "Farmaasii ykn naannoo barbaadi...",
+    "found": "{count} argame",
+    "noFound": "Farmaasiin hin argamne",
+    "noFoundSub": "Naannoo ykn maqaa biraa barbaadi yaali",
+    "clearSearch": "Barbaaduu haquu",
+    "kitsInStock": "✓ Kutaaleen Jiru",
+    "noKits": "Kutaaleen Hin Jiru",
+    "opens": "Sa'a 8 irratti banama",
+    "viewDetails": "Bal'inaan ilaali",
+    "navigate": "Karaa Hordofi"
+  },
+  "testingCenters": {
+    "title": "Find Testing Centers",
+    "subtitle": "Confirmatory care · Near you",
+    "searchPlaceholder": "Search center or area...",
+    "found": "{count} found",
+    "noFound": "No testing centers found",
+    "noFoundSub": "Try searching a different area or center name",
+    "clearSearch": "Clear search",
+    "viewDetails": "View Details",
+    "navigate": "Navigate",
+    "notFound": "Testing center not found",
+    "backToList": "Back to list",
+    "contactAndHours": "Contact & Hours",
+    "hoursUnavailable": "Hours not available",
+    "confirmatoryTitle": "Confirmatory testing matters",
+    "confirmatoryBody": "After a reactive self-test, visit a health facility for a confirmatory blood test and next-step support as soon as possible.",
+    "navigateHere": "Navigate Here",
+    "call": "Call"
+  },
+  "howItWorks": {
+    "badge": "ORAQuick · Akkamitti Hojjeta",
+    "title": "Qorannoon HIV Ofii\nAkkamitti Hojjeta",
+    "subtitle": "Saayinsii, sirriitti fi yeroo eegannoo qorannoo afaanii ORAQuick hubadhu.",
+    "nextCta": "ORAQuick Akkamitti Itti Fayyadamuu →",
+    "s1title": "Qorannoo HIV Ofii ORAQuick Maali?",
+    "s1content": "ORAQuick qorannoo HIV ofii FDA-n hayyamamee ariitii of qoruuf kan tahe yoo ta'u, antibody HIV-1 fi HIV-2 xannachi gadoo salphaan — dhiiga malee, cilee malee — adda baasa. Cidda cinaa dhiquu jalqabdee bu'aa si'a 20-40 keessatti dhuunfummaa guutuun argatta.",
+    "s1badge": "Xannachi Afaanii · Dhiiga Hin Barbaachisu",
+    "s2title": "Maal Adda Baasa?",
+    "s2content": "ORAQuick antibody qaama kee infekshinii HIV dura of ittisuu keessatti uumu adda baasa. Vaayirasii kallattiin adda hin baasu, kanaafuu yeroo infekshiniifi bu'aa amanamaa giddutti yeroo eegannoo jira.",
+    "s2note": "ORAQuick antijenii p24 ykn RNA vaayirasii adda hin baasu — qorannoo antibody qofaadha.",
+    "s3title": "Sirriitti (Sirriitti Yoo Itti Fayyadamame)",
+    "s3note": "Bu'aan qorannoo ofii poozatiivii ta'e dhibee miti. Mirkaneessuu qorannoo giddu-gala fayyaa irratti barbaachisa.",
+    "s3subNote": "Yeroo mana keessatti fayyadamamu sirriitti 91.7% ture — haala laabrootaatooriyii gadi, qajeelfamoota hordofuu barbaachisummaa agarsiisa.",
+    "s3sensitivity": "Saansitiiviitii — HIV+ sirritti adda baasuu",
+    "s3specificity": "Ispeesifisitii — HIV− sirritti haquu",
+    "s4title": "Yeroo Eegannoo",
+    "s4content": "Infekshinii HIV booda, qaami kee antibody qoratamuuf gahuu maddisiisuu yeroo fudhata. Dafanii qorannoo gochuu bu'aa negatiivii sobaa kennuu danda'a.",
+    "s4timelineNote": "Yeroo saaxilamuu danda'u booda ji'a 3 (guyyaa 90) booda qorannoo gochuu bu'aa amanamaa kennuu danda'a.",
+    "timeline": {
+      "exposure": "Saaxilamuu",
+      "earliest": "Jalqabbii",
+      "reliable": "Amanamaa",
+      "confirm": "Mirkaneessuu"
+    }
+  },
+  "howToUse": {
+    "badge": "Qorannoo HIV Ofii ORAQuick",
+    "title": "ORAQuick Akkamitti\nItti Fayyadamuu",
+    "subtitle": "Xannachi cidda · Bu'aa si'a 20-40 · Tarkaanfiiwwan 5 hunda sirriitti hordofi.",
+    "stepLabel": "Tarkaanfii {n}/{total}",
+    "quickRef": "Wabii Ariitii",
+    "important": "Barbaachisaa:",
+    "importantNote": "Bu'aan ORAQuick poozatiivii ta'e dhibee HIV isa xumuraa miti. Qorannoo dhiigaa mirkaneessuu giddu-gala fayyaa dhaqi.",
+    "nextCta": "Bu'aawwan Kee Hubadhu →",
+    "resultRef": "Wabii Bu'aa",
+    "steps": {
+      "s1title": "Eegaluu Dura",
+      "s1desc": "Yeroo qorannoo dura si'a xiqqaate daqiiqaa 30tti nyaachuu, dhuguu, xuuxuu, gumi kuusuu, ykn meeshaalee qulqulleessaa afaanii itti hin fayyadamin.",
+      "s1c1": "Harka saabunaa fi bishaaniin sirriitti dhiqi",
+      "s1c2": "Guyyaa darbe fooyil poochii irratti barreeffame mirkaneessi",
+      "s1c3": "Meeshaalee hunda qopheessi: meeshaa qorannoo, vayaalii deeveeloperaa, fi xannachi",
+      "s1warn": "Daqiiqaa 30 hin guunnetti nyaatuu ykn dhuguu booda qorannoo gochuu sirriitti dhiibu danda'a.",
+      "s2title": "Cidda Kee Xannachi",
+      "s2desc": "Xiyya guraacha of qabadhu. Caappaa xannachi pilaatii qunxubbii keettiin hin tuqin.",
+      "s2c1": "Pilaatii cidda OLII irratti yeroo tokko xannachi — duubaa gara fuulduraatti (gama arrabaa, ilkaan miti)",
+      "s2c2": "Xannachi walfakkaataa fayyadamuun cidda GADI yeroo tokko xannachi — duubaa gara fuulduraatti",
+      "s2c3": "Cidda tokkoon tokkoon xannachi tokkoo ga'a",
+      "s2note": "Ilkaan, afaaniin, ykn keessa arrabaa hin xannachisin.",
+      "s3title": "Xannachi Vayaaliitti Galchi",
+      "s3desc": "Hataattamaan deeveeloperaa vayaalii irraa kaasi. Xannachi pilaatii gad-galeessaan kallattiin gadi galchi.",
+      "s3c1": "Vayaalii dhaabadhu — diriirsa kenname ykn mana diriirfadhu",
+      "s3c2": "Xannachi galchiin booda vayaalii gama tokkoon hin ciisichin",
+      "s3c3": "Bishaanni deeveeloperaa siraara qorannoo irratti ofiin olka'a",
+      "s3note": "Xannachi galchiin booda vayaalii hin naquun, hin raafin, ykn hin sochoosiin.",
+      "s4title": "Daqiiqaa 20-40 Eegadhu",
+      "s4desc": "Daqiiqaa 20f yeroo qopheessi vayaalii bakka taatii irratti dhiisi.",
+      "s4c1": "Eegaa osoo jirtuu vayaalii hin sochoosiin, hin jajjabeesin ykn hin raafin",
+      "s4c2": "Daqiiqaa 20 dura bu'aa hin dubbisiin — hojiin ammallee itti fufaa jira",
+      "s4c3": "Daqiiqaa 40 booda bu'aa hin dubbisiin — bu'aan hin fayyadu",
+      "s4warn": "Daqiiqaa 20-40 alatti dubbisuu bu'aa amanamaa hin taane kenna.",
+      "s5title": "Bu'aa Kee Dubbisi",
+      "s5desc": "Meeshaa qorannoo irratti argamu foddaa bu'aa ilaali. Cinaa \"C\" (To'annoo) fi \"T\" (Qorannoo) tarree barbaadi.",
+      "r1lines": "Tarree 1",
+      "r1at": "C qofaa",
+      "r1outcome": "Negatiivii",
+      "r1detail": "HIV yeroo kana hin argamne.",
+      "r2lines": "Tarree 2",
+      "r2at": "C fi T",
+      "r2outcome": "Poozatiivii (Riyaaktiivii)",
+      "r2detail": "Tarree T haa'u iyyuu riyaaktiivii. Qorannoo mirkaneessuu barbaadi.",
+      "r3lines": "Tarree hin jiru",
+      "r3at": "C hin jiru",
+      "r3outcome": "Hojii Hin Baane",
+      "r3detail": "Qorannoon hin hojjenne. Kutaa haaraa fayyadamuun irra deebi'i."
+    },
+    "timer": {
+      "title": "Sa'aatii Qorannoo Qajeelfame",
+      "subtitle": "Tarkaanfi tarkaanfiin sa'aatii daqiiqaa 20 waliin",
+      "startCta": "Qorannoo Qajeelfame Eegali",
+      "stepOf": "TARKAANFI {n} KAN {total}",
+      "developing": "Guddachaa jira... viyaala hin tuqin",
+      "windowOpen": "Yeroo dubbisuu banaa — amma dubbisuu dandeessa ✓",
+      "expired": "Bu'aan yeroon darbeera — kiitii haaraadhaan deebi'ii qori",
+      "marker0": "Daqiiqaa 0",
+      "marker20": "Daqiiqaa 20 ← dubbisi",
+      "marker40": "Daqiiqaa 40",
+      "waitWarning": "Bu'aa kee dubbisuu dura daqiiqaa 20:00 eegi. Viyaala hin tuqin.",
+      "doneBanner": "Qorannoon Xumurame",
+      "doneSub": "Bu'aa kee hubachuuf gara bu'aatti deemi",
+      "resultsCta": "Bu'aa Koo Hubadhu →",
+      "restart": "Deebi'ii Eegali",
+      "ctaS1": "Qophaa'eera — Itti fufi",
+      "ctaS2": "Qorichaan qabame — Itti aanu",
+      "ctaS3": "Qoricha seensifte — Sa'aatii eegali",
+      "ctaS4": "Bu'aa Koo Dubbisi",
+      "ctaS5": "Qorannoo Xumuuri"
+    }
+  },
+  "results": {
+    "title": "Bu'aa Hubachuu",
+    "subtitle": "Qorannoo HIV Ofii ORAQuick",
+    "whatThisMeans": "Kun maal jechuudha:",
+    "nextSteps": "Tarkaanfiiwwan Itti Aanoo",
+    "privacyNote": "Hayyama kee malee bu'aan hin kuufamu.",
+    "tabs": {
+      "negative": "Negatiivii",
+      "positive": "Poozatiivii",
+      "invalid": "Hojii Hin Baane"
+    },
+    "negative": {
+      "title": "Bu'aa Negatiivii",
+      "subtitle": "Yeroo kana saampilii kee keessatti antibody HIV hin argamne.",
+      "meaning": "Qorannoon kee antibody HIV hin arganne. Ji'a 3 darban keessa saaxilamuu danda'u yoo qabaatte, yeroo eegannoo dhumuu booda irra deebi'i qori.",
+      "step1": "Ji'a 3 darban saaxilamte yoo taate, guyyaa 90 yeroo eegannoo booda irra deebi'i qori",
+      "step2": "HIV-negatiivii ta'uuf eegannoo (kondiimii, PrEP) itti fayyadamuu itti fufi",
+      "step3": "Yeroo hundaa saaxilamuu qabaatte ji'a 3-6tti qorannoo godhi"
+    },
+    "positive": {
+      "title": "Bu'aa Riyaaktiivii",
+      "subtitle": "Bu'aan riyaaktiivii argame. Kun ogeeyyii fayyaatiin mirkanaawuu qaba.",
+      "meaning": "Qorannoon ORAQuick antibody HIV saampilii kee keessatti argateera. Kun dhibee xumuraa MITI — bu'aan qorannoo ofii riyaaktiivii ta'e dhiiga qorannoo giddu-gala fayyaatiin mirkanaawuu qaba.",
+      "step1": "Qorannoo dhiigaa mirkaneessuu ariitiin giddu-gala fayyaa dhaqi",
+      "step2": "Gorsiisaa waliin dubbadhu — kophaa itti si'a'uu hin barbaachisu",
+      "step3": "Wal'aansa durumaa (ART) fayyadamuun namoonni HIV qaban jireenya guutuu, fayyaa qabu jiraatu",
+      "cta": "Deeggarsa fi Qorannoo Mirkaneessuu Argadhu"
+    },
+    "invalid": {
+      "title": "Bu'aa Hojii Hin Baane",
+      "subtitle": "Qorannoon bu'aa dubbifamuu danda'u hin kennine. Irra deebi'uu qabda.",
+      "meaning": "Sarara to'annoo (C) hin mul'anne, kuni qorannoon sirritti hin hojjenne jechuudha. Qajeelfamoonni sirritti hin hordofamne yookiin kutaan yeroo darbe tahe kana danda'a.",
+      "step1": "Irra deebi'uu dura qajeelfamoota sirriitti dubbisi — dogoggoroonni beekkamoo keessaa xannachi dafanii xumuruu ykn vayaalii sochoosuu",
+      "step2": "Irra deebi'uu dura poochii kutaa irratti guyyaa darbe mirkaneessi",
+      "step3": "Bu'aa hojii hin baane biraa argatte, qorannoof giddu-gala fayyaa dhaqi",
+      "cta": "ORAQuick Fayyadama Irra Ilaali"
+    }
+  },
+  "chat": {
+    "title": "Gargaaraa Fayyaa",
+    "subtitle": "Maqaa malee · Yeroo hundaa dhuunfaa",
+    "heroTitle": "Waan Kamiyyuu Gaafadhu.\nMurtii Malee.",
+    "heroSubtitle": "Eenyummaan kee yeroo kamiiyyuu hin kuufamu. HIV, STI, ykn qorannoo waa'ee gargaaraa fayyaa keenya gaafadhu.",
+    "placeholder": "Waan kamiyyuu maqaa malee gaafadhu...",
+    "disclaimer": "Gorsaa ogummaa fayyaa bakka hin bu'u. Bu'aawwan jijjiiramuu danda'u.",
+    "initialMessage": "Akkam 👋 An gargaaraa fayyaa maqaa malee kee dha. HIV of qorannoo, bu'aa, ykn tarkaanfiiwwan itti aanu waa'ee waan kamiyyuu na gaafachuu ni dandeessa. Eenyummaan kee hin kuufamu.",
+    "sessionLabel": "Amma · Marii maqaa malee",
+    "justNow": "Ammuma",
+    "now": "Amma",
+    "fallback": "Gaaffii gaarii. Gorsa fayyaa dhuunfaa argachuuf, ogeeyyii fayyaa ykn giddu-gala fayyaa dhiyoo jiru dhaqi. HIV, STI, fi of qorannoo waa'ee odeeffannoo waliigalaa kenna ni danda'a — maal beekuu barbaadda?",
+    "quickReplies": {
+      "q1": "Bu'aan poozatiivii maal jechuudha?",
+      "q2": "Kiliinikiis dhiyoo eessatti argachuu danda'a?",
+      "q3": "PEP maali?",
+      "q4": "ORAQuick meeqa sirritti ta'a?",
+      "q5": "Yeroo eegannoo maali?"
+    },
+    "responses": {
+      "q1": "Bu'aan qorannoo ofii poozatiivii dhibee mirkanaa'aa MITI — antibody HIV argameera jechuudha. Kiliinikiitti ykn hospitaalaatti qorannoo mirkaneessuu barbaachisa. Nagaa ta'i: wal'aansa durumaa hedduu gaarii dha. Giddu-gala qorannoo dhiyoo argachuuf gargaarsa barbaaddaa?",
+      "q2": "App kana keessatti Kutaalee Qorannoo Barbaadi kutaa keessatti farmaasii ORAQuick qabu argachuu ni dandeessa. Qorannoo mirkaneessuu guutuuf giddu-gala fayyaa ummataa dhiyoo dhaqi — hedduu ofii kaffaltii malee, dhoksaadhaan qorannoo HIV ni kennitu.",
+      "q3": "PEP (Wal'aansa Booda Saaxilamuu) dura ta'uu danda'u yeroo kessatti sa'a 72 keessatti fudhatamu dawaa HIV oolmaa ta'edha. Ariitiin eegaluu qaba — yeros ta'e sa'a 2 keessatti. Saaxilamuu ta'eera jettee yaadte yoo taate battalumatti kutaa hatattama ykn kiliinikiitti dhaqi.",
+      "q4": "ORAQuick haala laabrootaatorii keessatti sirriitti 99.3% (poozatiivii dhugaa argata) fi 99.8% ispeesifisitii (poozatiivii sobaa ni eeggata) qaba. Mana keessatti fayyadamuu sirriitti 91.7% ti. Bu'aan negatiivii yeroo eegannoo keessa argame guyyaa 90tti irra deebi'uun mirkanaawuu qaba.",
+      "q5": "Yeroo eegannoo antiboodiin saaxilamuu danda'u booda eegdamuu yeroo ta'e — ORAQuick guyyaa 18-90 ta'a. Negatiivii ta'e garuu dhiyotti saaxilamuu danda'ite yoo taate, mirkaneessaaf guyyaa 90tti irra deebi'i qori."
+    }
+  },
+  "community": {
+    "title": "Kophaa Miti",
+    "subtitle": "Hawaasa maqaa malee",
+    "description": "HIV, STI fi fayyaa saalaa waa'ee muuxannoo qoodachuu fi gaaffii gaafachuuf bakka nagaa, maqaa malee.",
+    "placeholder": "Maqaa malee qoodi...",
+    "disclaimer": "Herreegni hin barbaachisu. Eenyummaan kee yeroo kamiiyyuu hin kuufamu.",
+    "sharedSuccess": "Maqaa malee qoodame ✓",
+    "noPostsInCategory": "Kutaa kana keessatti barreeffamni hin jiru.",
+    "tabs": {
+      "all": "Hunda",
+      "hiv": "HIV",
+      "stis": "STI",
+      "results": "Bu'aawwan",
+      "prep": "PrEP",
+      "support": "Deeggarsa"
+    }
+  },
+  "learn": {
+    "title": "Ariitii Keetiin Baradhu",
+    "subtitle": "Mana kitaabaa viidiyoo",
+    "description": "Bu'aa HIV, STI, ittisa, fi wal'aansa waa'ee gabaabaa, dhuunfaa leenjii viidiyoo.",
+    "tabVideos": "Viidiyoo",
+    "comingSoonLabel": "Dhihotti Dhufa",
+    "disclaimer": "Qabiyyeen hundi sirriitti ilaalameera. Viidiyoowwan barumsa qofaaf dha — gorsa dhuunfaaf ogeeyyii fayyaa mariyadhu.",
+    "newBadge": "HAARAA",
+    "tabs": {
+      "all": "Hunda",
+      "hiv": "HIV",
+      "stis": "STI",
+      "results": "Bu'aawwan",
+      "treatment": "Wal'aansa"
+    },
+    "videos": {
+      "v1title": "Qorannoo HIV Ofii ORAQuick — Akkamitti Itti Fayyadamuu",
+      "v1channel": "ORAQuick Ofiidhaa",
+      "v2title": "ORAQuick Tarkaanfii-Tarkaanfiitiin",
+      "v2channel": "Barsiisaa Guutuu",
+      "cs1title": "Yeroo Eegannoo Hubachuu",
+      "cs1sub": "Maaliif yeroo qorannoo kee barbaachisaa ta'e",
+      "cs2title": "STI Beekkamoo: Mallattoolee fi Ittisa",
+      "cs2sub": "Klamiidiyaa, gonoriyaa, sifiliisii, fi kanneen biroo",
+      "cs3title": "HIV Waliin Gaarii Jiraachuu — ART Jalqabuu",
+      "cs3sub": "Wal'aansa, hordofuu, fi fayyummaa",
+      "cs4title": "PrEP Sirriitti Fayyadamuu",
+      "cs4sub": "Qajeelfama dawaa ittisa HIV"
+    }
+  },
+  "sexualHealth": {
+    "title": "Fayyaa Saalaa Kee Beeki",
+    "subtitle": "Odeeffannoo STI",
+    "description": "Odeeffannoo mallattoolee, ittisa, fi wal'aansa STI beekkamoo waa'ee ifaa, kuffaltii malee.",
+    "learnMore": "Dabalata baradhu",
+    "keyFactsTitle": "Dhugaalee Gurguddoo STI Waa'ee",
+    "getTestedTitle": "Yeroo Yeroon Qoradhu",
+    "getTestedDesc": "STI hedduun mallattoo hin qabu. Nama saalaan hojjatamuuf qorannoo waggaatti tokko ni gorfama.",
+    "getTestedCta": "Bakka Qorannoo Argadhu",
+    "symptoms": "Mallattoolee",
+    "transmission": "Darbu",
+    "treatment": "Wal'aansa",
+    "testing": "Mala Qorannoo",
+    "howItSpreads": "Akkamitti Darba",
+    "prevention": "Ittisa",
+    "notFound": "Odeeffannoon STI hin argamne.",
+    "findTestingCta": "Bakka Qorannoo Dhiyoo Argadhu",
+    "facts": {
+      "f1title": "STI Hedduun Mallattoo Hin Qabu",
+      "f1desc": "Haala kee beekuuf qorannoo yeroo yeroon gochuu tokkichi karaa — fayyaa sitti dhagahamu illee.",
+      "f2title": "Ittisni Hojjeta",
+      "f2desc": "Kondiimii, talaallii (HPV, HepB), fi PrEP sirritti yoo itti fayyadamame hedduu gorfama.",
+      "f3title": "Wal'aansa Durumaa Barbaachisa",
+      "f3desc": "STI baakteeriyaa hedduun fayyisuu ni danda'ama. STI vaayirasii to'achuu ni danda'ama. Qorannoo hin dheereffatin."
+    },
+    "stis": {
+      "chlamydia": {
+        "name": "Klamiidiyaa",
+        "desc": "Hedduun mallattoo hin qabu. Antibayootikiitiin salphatti wal'aanama.",
+        "symptoms": ["Hedduun mallattoo hin qabu", "Ba'ii addaa ta'e", "Fincaan yoo fincaa'u", "Dhukkubbii ilkaanee"],
+        "transmission": "Saalqunnamtii dura, duuba, ykn afaaniin",
+        "treatment": "Antibayootikii yeroo tokko ykn guyyaa 7 (azithromycin ykn doxycycline)",
+        "testing": "Qorannoo fincaanii ykn xannachi"
+      },
+      "gonorrhea": {
+        "name": "Gonoriyaa",
+        "desc": "Bakka heddutti dhiibu danda'a. Gosoonni antibayootikii dura dhaabbatan jiru.",
+        "symptoms": ["Ba'ii (adii, keelloo, magariisa)", "Dhukkubbii yoo fincaa'u", "Dhukkubbii duubaa", "Hedduun mallattoo hin qabu"],
+        "transmission": "Saalqunnamtii dura, duuba, ykn afaaniin",
+        "treatment": "Wal'aansa antibayootikii lama (ceftriaxone + azithromycin)",
+        "testing": "Qorannoo fincaanii ykn xannachi"
+      },
+      "syphilis": {
+        "name": "Sifiliisii",
+        "desc": "Sadarkaa 3. Dursanii qabame fayyisuu ni danda'ama. Wal'aanamuu baannaan hamaa.",
+        "symptoms": ["Sadarkaa 1: madaa dhukkubbii hin qabnee (shanker)", "Sadarkaa 2: saalfii, ho'a qaamaa, glandii fuudhuu", "Sadarkaa 3: miidhaa qaama wal'aanamuu baannaan"],
+        "transmission": "Saalqunnamtii yeroo madaalee kallattiin quunnamuu",
+        "treatment": "Dhaawitii peenisiliin (sadarkaa durumaa keessatti hedduu miidhagaa)",
+        "testing": "Qorannoo dhiigaa"
+      },
+      "hepatitisB": {
+        "name": "Hepatitis B",
+        "desc": "Talaalliin ittisuu ni danda'ama. Dhiibbaa infekshini yeroo dheeraa jiru.",
+        "symptoms": ["Jaandiisii (gogaa/ijaan keelloo)", "Dadhabuu", "Dhukkubbii garaa", "Jalqaba hedduun mallattoo hin qabu"],
+        "transmission": "Saalqunnamtii eeggannoo malee, haadhoo wajjin qooddachuu, haadhaa irraa ilmaanitti",
+        "treatment": "Talaalliin jira (doozii 3). Infekshini yeroo dheeraa antivaayirasiitiif",
+        "testing": "Qorannoo dhiigaa"
+      },
+      "hpv": {
+        "name": "HPV",
+        "desc": "Hedduu beekkama. Talaalliin jira. Gosoonni muraasni balaa qabu.",
+        "symptoms": ["Gargaaraa saalaa (gosoonni muraasni)", "Hedduun mallattoo hin qabu", "Gosoonni balaa qabu kansara fidu danda'u"],
+        "transmission": "Gogaa-gara-gogaa saalqunnamtii quunnamuu",
+        "treatment": "Talaalliin jira. Gargaarri wal'aanamuu ni danda'ama. Jijjiirama sarvikisii hordofama",
+        "testing": "Pap smear / HPV DNA test (dubartootaaf)"
+      },
+      "herpes": {
+        "name": "Harpeesii",
+        "desc": "Jireenya guutuuf garuu to'achuu ni danda'ama. Antivaayiraasiin mullata hir'isa.",
+        "symptoms": ["Ciduu, qoriituu, ykn gubachuu", "Madaalee ykn ciree dhukkubbii qabu", "Mallattoolee fii'uu fakkaatan (mullata jalqabaa)"],
+        "transmission": "Madaalee mul'ataa malee iyyuu gogaa-gara-gogaa quunnamuu",
+        "treatment": "Fayyisuu hin danda'amu, garuu antivaayiraasiin (acyclovir, valacyclovir) mullata hir'isa",
+        "testing": "Qorannoo mul'ataa, xannachi madaa hojjataa, ykn qorannoo dhiigaa"
+      }
+    }
+  }
+}

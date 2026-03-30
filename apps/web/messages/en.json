@@ -1,0 +1,386 @@
+{
+  "common": {
+    "back": "Back",
+    "open": "Open",
+    "closed": "Closed",
+    "learnMore": "Learn more",
+    "comingSoon": "Coming soon",
+    "privacyNote": "Your privacy is protected.",
+    "privacyDetail": "Anonymous browsing. No results stored without your permission.",
+    "noSignup": "No sign-up",
+    "anonymous": "Anonymous",
+    "free": "Free",
+    "share": "Share"
+  },
+  "lang": {
+    "en": "English",
+    "am": "አማርኛ",
+    "om": "Afaan Oromoo"
+  },
+  "home": {
+    "tagline": "Tena-Sabi",
+    "headline": "Test\nPrivately.\nKnow Your\nStatus.",
+    "description": "Find ORAQuick HIV self-test kits near you — 100% anonymous, free guidance.",
+    "stats": {
+      "locations": "Locations",
+      "accurate": "Accurate",
+      "dataStored": "Data stored"
+    },
+    "cta": "Get Started",
+    "footer": "No sign-up · Anonymous · Free"
+  },
+  "hivTest": {
+    "tagline": "HIV Self-Test",
+    "shopZemenGebya": "Shop on Zemen Gebya",
+    "headline": "Test Privately.\nKnow Your\nStatus.",
+    "description": "Find ORAQuick kits near you and learn how to use them correctly.",
+    "stats": {
+      "pharmacies": "Pharmacies",
+      "accuracy": "Accuracy",
+      "guidance": "Guidance"
+    },
+    "primaryActions": {
+      "findKits": "Find Test Kits Near You",
+      "findKitsSub": "Browse pharmacies with ORAQuick kits",
+      "howItWorks": "How Self-Testing Works",
+      "howItWorksSub": "Science, accuracy & window period"
+    },
+    "secondaryActions": {
+      "howToUse": "How To Use",
+      "howToUseSub": "5-step guide",
+      "readResults": "Read Results",
+      "readResultsSub": "Understand your test"
+    },
+    "support": {
+      "sectionTitle": "Support & Education",
+      "chat": "Ask Anything",
+      "chatSub": "Anonymous assistant",
+      "community": "Community",
+      "communitySub": "You're not alone",
+      "learn": "Video Lessons",
+      "learnSub": "Learn at your pace",
+      "sexualHealth": "Sexual Health",
+      "sexualHealthSub": "STI info & prevention"
+    }
+  },
+  "findKits": {
+    "title": "Find Test Kits",
+    "subtitle": "ORAQuick · Near you",
+    "searchPlaceholder": "Search pharmacy or area...",
+    "found": "{count} found",
+    "noFound": "No pharmacies found",
+    "noFoundSub": "Try searching a different area or name",
+    "clearSearch": "Clear search",
+    "kitsInStock": "Kits in Stock",
+    "noKits": "No kits available",
+    "opens": "Opens 8 AM",
+    "viewDetails": "View Details",
+    "navigate": "Navigate"
+  },
+  "testingCenters": {
+    "title": "Find Testing Centers",
+    "subtitle": "Confirmatory care · Near you",
+    "searchPlaceholder": "Search center or area...",
+    "found": "{count} found",
+    "noFound": "No testing centers found",
+    "noFoundSub": "Try searching a different area or center name",
+    "clearSearch": "Clear search",
+    "viewDetails": "View Details",
+    "navigate": "Navigate",
+    "notFound": "Testing center not found",
+    "backToList": "Back to list",
+    "contactAndHours": "Contact & Hours",
+    "hoursUnavailable": "Hours not available",
+    "confirmatoryTitle": "Confirmatory testing matters",
+    "confirmatoryBody": "After a reactive self-test, visit a health facility for a confirmatory blood test and next-step support as soon as possible.",
+    "navigateHere": "Navigate Here",
+    "call": "Call"
+  },
+  "howItWorks": {
+    "badge": "ORAQuick · How It Works",
+    "title": "How HIV\nSelf-Testing Works",
+    "subtitle": "Understand the science, accuracy, and window period behind the ORAQuick oral test.",
+    "nextCta": "How to Use ORAQuick →",
+    "s1title": "What is the ORAQuick HIV Self-Test?",
+    "s1content": "ORAQuick is an FDA-approved rapid HIV self-test that detects HIV-1 and HIV-2 antibodies using a simple gum swab — no blood, no needles. You collect a saliva sample from your gums and get a result in 20–40 minutes in complete privacy.",
+    "s1badge": "Oral Swab · No Blood Required",
+    "s2title": "What Does It Detect?",
+    "s2content": "ORAQuick detects antibodies your immune system produces in response to HIV infection. It does not detect the virus directly, which is why there is a window period between infection and a reliable result.",
+    "s2note": "ORAQuick does NOT detect the p24 antigen or viral RNA — it is an antibody-only test.",
+    "s3title": "Accuracy (When Used Correctly)",
+    "s3note": "A reactive (positive) self-test is NOT a diagnosis. Confirmatory testing at a health facility is required.",
+    "s3subNote": "Real-world home-use sensitivity was 91.7% — lower than lab conditions, underscoring the importance of following instructions carefully.",
+    "s3sensitivity": "Sensitivity — correctly detects HIV+",
+    "s3specificity": "Specificity — correctly rules out HIV−",
+    "s4title": "Window Period",
+    "s4content": "After HIV infection, the body takes time to produce detectable antibody levels. Testing too soon may give a false negative result.",
+    "s4timelineNote": "Test at 3 months (90 days) after possible exposure for the most reliable result.",
+    "timeline": {
+      "exposure": "Exposure",
+      "earliest": "Earliest",
+      "reliable": "Reliable",
+      "confirm": "Confirm"
+    }
+  },
+  "howToUse": {
+    "badge": "ORAQuick HIV Self-Test",
+    "title": "How to Use\nORAQuick",
+    "subtitle": "Gum swab · Results in 20–40 min · Follow all 5 steps carefully.",
+    "stepLabel": "Step {n}/{total}",
+    "quickRef": "Quick Reference",
+    "important": "Important:",
+    "importantNote": "A reactive ORAQuick result is not a final HIV diagnosis. Visit a health facility for a confirmatory blood test.",
+    "nextCta": "Understand Your Results →",
+    "resultRef": "Result Reference",
+    "steps": {
+      "s1title": "Before You Start",
+      "s1desc": "Do NOT eat, drink, smoke, chew gum, or use any oral hygiene products for at least 30 minutes before testing.",
+      "s1c1": "Wash hands thoroughly with soap and water",
+      "s1c2": "Check the expiry date printed on the foil pouch",
+      "s1c3": "Lay out all components: test device, developer vial, and swab",
+      "s1warn": "Testing within 30 minutes of eating or drinking can affect accuracy.",
+      "s2title": "Swab Your Gums",
+      "s2desc": "Hold the white handle end. Do NOT touch the flat swab pad with your fingers.",
+      "s2c1": "Swipe the pad once along your UPPER gum line — from back to front (cheek side, not teeth)",
+      "s2c2": "Using the same swab, swipe your LOWER gum line once — from back to front",
+      "s2c3": "One full swipe per gum line is sufficient",
+      "s2note": "Do NOT swab your teeth, tongue, or inner cheeks.",
+      "s3title": "Insert Swab into the Vial",
+      "s3desc": "Remove the purple cap from the developer vial. Insert the swab paddle-end first, straight down into the vial.",
+      "s3c1": "Stand the vial upright — use the included stand or lean it against a wall",
+      "s3c2": "Do NOT lay the vial on its side after inserting the swab",
+      "s3c3": "The developer fluid will travel up the test strip on its own",
+      "s3note": "Do not stir, shake, or move the vial after inserting the swab.",
+      "s4title": "Wait 20–40 Minutes",
+      "s4desc": "Set a timer for 20 minutes and leave the vial completely undisturbed on a flat surface.",
+      "s4c1": "Do not move, tilt, or shake the vial while waiting",
+      "s4c2": "Do NOT read results before 20 minutes — the reaction is still developing",
+      "s4c3": "Do NOT read results after 40 minutes — result will no longer be valid",
+      "s4warn": "Reading outside the 20–40 minute window gives an unreliable result.",
+      "s5title": "Read Your Result",
+      "s5desc": "Look at the result window on the test device. Check for lines next to \"C\" (Control) and \"T\" (Test).",
+      "r1lines": "1 line",
+      "r1at": "C only",
+      "r1outcome": "Negative",
+      "r1detail": "HIV not detected at this time.",
+      "r2lines": "2 lines",
+      "r2at": "C and T",
+      "r2outcome": "Reactive (Positive)",
+      "r2detail": "Even a faint T line is reactive. Seek confirmatory testing.",
+      "r3lines": "No lines",
+      "r3at": "C absent",
+      "r3outcome": "Invalid",
+      "r3detail": "Test did not work. Retest with a new kit."
+    },
+    "timer": {
+      "title": "Guided Test Timer",
+      "subtitle": "Step-by-step with built-in 20-min timer",
+      "startCta": "Start Guided Test",
+      "stepOf": "STEP {n} OF {total}",
+      "developing": "Developing... do not touch the vial",
+      "windowOpen": "Read window open — you can read now ✓",
+      "expired": "Result expired — retest with a new kit",
+      "marker0": "0 min",
+      "marker20": "20 min ← read",
+      "marker40": "40 min",
+      "waitWarning": "Wait until 20:00 before reading your result. Do not touch the vial.",
+      "doneBanner": "Test Complete",
+      "doneSub": "Head to results to understand your result",
+      "resultsCta": "Understand My Result →",
+      "restart": "Start Again",
+      "ctaS1": "I'm Ready — Proceed",
+      "ctaS2": "Done Swabbing — Next",
+      "ctaS3": "Swab Inserted — Start Timer",
+      "ctaS4": "Read My Result",
+      "ctaS5": "Finish Test"
+    }
+  },
+  "results": {
+    "title": "Understanding Results",
+    "subtitle": "ORAQuick HIV Self-Test",
+    "whatThisMeans": "What this means:",
+    "nextSteps": "Next Steps",
+    "privacyNote": "Results are not stored unless you give permission.",
+    "tabs": {
+      "negative": "Negative",
+      "positive": "Positive",
+      "invalid": "Invalid"
+    },
+    "negative": {
+      "title": "Negative Result",
+      "subtitle": "No HIV antibodies were detected in your sample at this time.",
+      "meaning": "Your test did not detect HIV antibodies. If you had a potential exposure in the last 3 months, test again after the window period ends.",
+      "step1": "If exposed in the last 3 months, retest after the 90-day window period",
+      "step2": "Continue using protection (condoms, PrEP) to stay HIV-negative",
+      "step3": "Regular testing every 3–6 months if you are at ongoing risk"
+    },
+    "positive": {
+      "title": "Reactive Result",
+      "subtitle": "A reactive result was detected. This must be confirmed by a healthcare professional.",
+      "meaning": "The ORAQuick test detected HIV antibodies in your sample. This is NOT a final diagnosis — a reactive self-test result must be confirmed with a blood test at a health facility.",
+      "step1": "Visit a health facility as soon as possible for a confirmatory blood test",
+      "step2": "Speak with a counsellor — you don't have to face this alone",
+      "step3": "With early treatment (ART), people with HIV live full, healthy lives",
+      "cta": "Find Support & Confirmatory Testing"
+    },
+    "invalid": {
+      "title": "Invalid Result",
+      "subtitle": "The test did not produce a readable result. You need to retest.",
+      "meaning": "The control line (C) did not appear, meaning the test did not run correctly. This can happen if instructions were not followed exactly or if the kit was expired.",
+      "step1": "Re-read the instructions carefully before retesting — common errors include swabbing too briefly or disturbing the vial",
+      "step2": "Check the expiry date on the kit pouch before retesting",
+      "step3": "If you get another invalid result, visit a health facility for testing",
+      "cta": "Review How to Use ORAQuick"
+    }
+  },
+  "chat": {
+    "title": "Health Assistant",
+    "subtitle": "Anonymous · Always private",
+    "heroTitle": "Ask Anything.\nNo Judgment.",
+    "heroSubtitle": "Your identity is never stored. Ask our health assistant any question about HIV, STIs, or self-testing.",
+    "placeholder": "Ask anything anonymously...",
+    "disclaimer": "Not a substitute for medical advice. Results may vary.",
+    "initialMessage": "Hello 👋 I'm your anonymous health assistant. You can ask me anything about HIV self-testing, results, or next steps. Your identity is never stored.",
+    "sessionLabel": "Now · Anonymous session",
+    "justNow": "Just now",
+    "now": "Now",
+    "fallback": "That's a great question. For personalized medical advice, please consult a healthcare professional or visit your nearest health center. I can share general information about HIV, STIs, and self-testing — what would you like to know?",
+    "quickReplies": {
+      "q1": "What does a positive result mean?",
+      "q2": "Where can I find a clinic nearby?",
+      "q3": "What is PEP?",
+      "q4": "How accurate is ORAQuick?",
+      "q5": "What is the window period?"
+    },
+    "responses": {
+      "q1": "A positive self-test result is NOT a confirmed diagnosis — it means HIV antibodies were detected. You need a confirmatory test at a clinic or hospital. Stay calm: early treatment works very well. Would you like help finding a nearby testing center?",
+      "q2": "You can find pharmacies with ORAQuick kits in the Find Test Kits section of this app. For full confirmatory testing, visit your nearest public health center — most offer free, confidential HIV testing.",
+      "q3": "PEP (Post-Exposure Prophylaxis) is emergency HIV medication taken within 72 hours of a potential exposure. It must be started as soon as possible — ideally within 2 hours. Visit an emergency room or clinic immediately if you think you've been exposed.",
+      "q4": "ORAQuick has 99.3% sensitivity (detects true positives) and 99.8% specificity (avoids false positives) in lab settings. Home use sensitivity is around 91.7%. A negative result during the window period should be confirmed with a retest at 90 days.",
+      "q5": "The window period is the time after infection when antibodies haven't built up enough to be detected — typically 18–90 days for ORAQuick. If you tested negative but had a recent potential exposure, retest at 90 days to be sure."
+    }
+  },
+  "community": {
+    "title": "You're not alone",
+    "subtitle": "Anonymous community",
+    "description": "A safe, anonymous space to share experiences and ask questions about HIV, STIs & sexual health.",
+    "placeholder": "Share anonymously...",
+    "disclaimer": "No account needed. Your identity is never stored.",
+    "sharedSuccess": "Shared anonymously ✓",
+    "noPostsInCategory": "No posts in this category yet.",
+    "tabs": {
+      "all": "All",
+      "hiv": "HIV",
+      "stis": "STIs",
+      "results": "Results",
+      "prep": "PrEP",
+      "support": "Support"
+    }
+  },
+  "learn": {
+    "title": "Learn at Your Own Pace",
+    "subtitle": "Video library",
+    "description": "Short, private video lessons on HIV results, STIs, prevention, and treatment.",
+    "tabVideos": "Videos",
+    "comingSoonLabel": "Coming Soon",
+    "disclaimer": "All content is reviewed for accuracy. Videos are for educational purposes only — consult a healthcare professional for personal advice.",
+    "newBadge": "NEW",
+    "tabs": {
+      "all": "All",
+      "hiv": "HIV",
+      "stis": "STIs",
+      "results": "Results",
+      "treatment": "Treatment"
+    },
+    "videos": {
+      "v1title": "ORAQuick HIV Self-Test — How to Use",
+      "v1channel": "ORAQuick Official",
+      "v2title": "ORAQuick Step-by-Step Walkthrough",
+      "v2channel": "Full Tutorial",
+      "cs1title": "Understanding the Window Period",
+      "cs1sub": "Why timing your test matters",
+      "cs2title": "Common STIs: Signs & Prevention",
+      "cs2sub": "Chlamydia, gonorrhea, syphilis, and more",
+      "cs3title": "Living Well with HIV — Starting ART",
+      "cs3sub": "Treatment, adherence, and wellness",
+      "cs4title": "How to Use PrEP Correctly",
+      "cs4sub": "HIV prevention medication guide"
+    }
+  },
+  "sexualHealth": {
+    "title": "Know Your Sexual Health",
+    "subtitle": "STI information",
+    "description": "Clear, stigma-free information on common STIs — symptoms, prevention, and treatment.",
+    "learnMore": "Learn more",
+    "keyFactsTitle": "Key Facts About STIs",
+    "getTestedTitle": "Get Tested Regularly",
+    "getTestedDesc": "Many STIs are silent. Annual testing is recommended for sexually active individuals.",
+    "getTestedCta": "Find a Testing Location",
+    "symptoms": "Symptoms",
+    "transmission": "Transmission",
+    "treatment": "Treatment",
+    "testing": "Testing method",
+    "howItSpreads": "How It Spreads",
+    "prevention": "Prevention",
+    "notFound": "STI information not found.",
+    "findTestingCta": "Find Testing Near You",
+    "facts": {
+      "f1title": "Many STIs Have No Symptoms",
+      "f1desc": "Regular testing is the only way to know your status — even if you feel healthy.",
+      "f2title": "Prevention Works",
+      "f2desc": "Condoms, vaccines (HPV, HepB), and PrEP are highly effective when used correctly.",
+      "f3title": "Early Treatment Matters",
+      "f3desc": "Most bacterial STIs are curable. Viral STIs are manageable. Don't delay testing."
+    },
+    "stis": {
+      "chlamydia": {
+        "name": "Chlamydia",
+        "desc": "Often no symptoms. Easily treated with antibiotics.",
+        "symptoms": ["Often no symptoms", "Unusual discharge", "Burning urination", "Pelvic pain"],
+        "transmission": "Vaginal, anal, or oral sex",
+        "treatment": "Single-dose or 7-day antibiotic course (azithromycin or doxycycline)",
+        "testing": "Urine test or swab"
+      },
+      "gonorrhea": {
+        "name": "Gonorrhea",
+        "desc": "Can affect multiple areas. Antibiotic-resistant strains exist.",
+        "symptoms": ["Discharge (white, yellow, green)", "Painful urination", "Rectal pain", "Often no symptoms"],
+        "transmission": "Vaginal, anal, or oral sex",
+        "treatment": "Dual antibiotic therapy (ceftriaxone + azithromycin)",
+        "testing": "Urine test or swab"
+      },
+      "syphilis": {
+        "name": "Syphilis",
+        "desc": "3 stages. Curable if caught early. Serious if untreated.",
+        "symptoms": ["Stage 1: painless sore (chancre)", "Stage 2: rash, fever, swollen glands", "Stage 3: organ damage if untreated"],
+        "transmission": "Direct contact with sores during sex",
+        "treatment": "Penicillin injection (highly effective in early stages)",
+        "testing": "Blood test"
+      },
+      "hepatitisB": {
+        "name": "Hepatitis B",
+        "desc": "Vaccine-preventable. Chronic infection risks exist.",
+        "symptoms": ["Jaundice (yellow skin/eyes)", "Fatigue", "Abdominal pain", "Often no symptoms initially"],
+        "transmission": "Unprotected sex, sharing needles, mother to child",
+        "treatment": "Vaccine available (3-dose series). Antivirals for chronic infection",
+        "testing": "Blood test"
+      },
+      "hpv": {
+        "name": "HPV",
+        "desc": "Very common. Vaccine available. Some strains are high-risk.",
+        "symptoms": ["Genital warts (some strains)", "Often no symptoms", "High-risk strains can cause cancer"],
+        "transmission": "Skin-to-skin genital contact",
+        "treatment": "Vaccine available. Warts can be treated. Cervical changes monitored",
+        "testing": "Pap smear / HPV DNA test (for women)"
+      },
+      "herpes": {
+        "name": "Herpes",
+        "desc": "Lifelong but manageable. Antivirals reduce outbreaks.",
+        "symptoms": ["Tingling, itching, or burning", "Painful blisters or sores", "Flu-like symptoms (first outbreak)"],
+        "transmission": "Skin-to-skin contact, even without visible sores",
+        "treatment": "No cure, but antivirals (acyclovir, valacyclovir) reduce outbreaks",
+        "testing": "Visual exam, swab of active sore, or blood test"
+      }
+    }
+  }
+}

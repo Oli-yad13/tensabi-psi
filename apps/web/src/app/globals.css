@@ -4,15 +4,35 @@
 
 @layer base {
   :root {
-    --purple-primary: #7C3AED;
-    --purple-light: #EDE9FE;
-    --purple-dark: #5B21B6;
-    --green-accent: #10B981;
-    --red-accent: #EF4444;
-    --yellow-accent: #F59E0B;
+    --brand: #037561;
+    --brand-light: #E6F3F0;
+    --brand-dark: #025a49;
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #F5FAF9;
   }
 }
 
-body {
-  background-color: #f9fafb;
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .shadow-brand {
+    box-shadow: 0 8px 32px rgba(3, 117, 97, 0.22);
+  }
+
+  .shadow-card {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.055);
+  }
 }
