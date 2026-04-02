@@ -1,16 +1,16 @@
 {
   "common": {
-    "back": "Back",
-    "open": "Open",
-    "closed": "Closed",
-    "learnMore": "Learn more",
-    "comingSoon": "Coming soon",
-    "privacyNote": "Your privacy is protected.",
-    "privacyDetail": "Anonymous browsing. No results stored without your permission.",
-    "noSignup": "No sign-up",
-    "anonymous": "Anonymous",
-    "free": "Free",
-    "share": "Share"
+    "back": "Dib u noqo",
+    "open": "Furan",
+    "closed": "Xiran",
+    "learnMore": "Wax badan ka baro",
+    "comingSoon": "Wuu soo socdaa",
+    "privacyNote": "Asturnaantaada waa la ilaalinayaa.",
+    "privacyDetail": "Daawasho qarsoodi ah. Natiijo lama kaydiyo adigoon oggolaan.",
+    "noSignup": "Is-diiwaangelin looma baahna",
+    "anonymous": "Qarsoodi",
+    "free": "Bilaash",
+    "share": "La wadaag"
   },
   "lang": {
     "en": "English",
@@ -21,82 +21,82 @@
   },
   "home": {
     "tagline": "Tena-Sabi",
-    "headline": "Test\nPrivately.\nKnow Your\nStatus.",
-    "description": "Find ORAQuick HIV self-test kits near you — 100% anonymous, free guidance.",
+    "headline": "Isku tijaabi\nSi gaar ah.\nOgow\nXaaladdaada.",
+    "description": "Ka hel xirmooyinka is-tijaabada HIV ee ORAQuick meel kuu dhow — 100% qarsoodi, hagis bilaash ah.",
     "stats": {
-      "locations": "Locations",
-      "accurate": "Accurate",
-      "dataStored": "Data stored"
+      "locations": "Goobo",
+      "accurate": "Sax ah",
+      "dataStored": "Xog la kaydiyey"
     },
-    "cta": "Get Started",
-    "footer": "No sign-up · Anonymous · Free"
+    "cta": "Bilow",
+    "footer": "Is-diiwaangelin ma jiro · Qarsoodi · Bilaash"
   },
   "hivTest": {
-    "tagline": "HIV Self-Test",
-    "shopZemenGebya": "Shop on Zemen Gebya",
-    "headline": "Test Privately.\nKnow Your\nStatus.",
-    "description": "Find ORAQuick kits near you and learn how to use them correctly.",
+    "tagline": "Is-Tijaabada HIV",
+    "shopZemenGebya": "Ka iibso Zemen Gebya",
+    "headline": "Isku tijaabi.\nSi gaar ah.\nOgow\nXaaladdaada.",
+    "description": "Ka hel xirmooyinka ORAQuick meel kuu dhow oo baro sida saxda ah ee loo isticmaalo.",
     "stats": {
-      "pharmacies": "Pharmacies",
-      "accuracy": "Accuracy",
-      "guidance": "Guidance"
+      "pharmacies": "Farmashiyo",
+      "accuracy": "Saxnaan",
+      "guidance": "Hagid"
     },
     "primaryActions": {
-      "findKits": "Find Test Kits Near You",
-      "findKitsSub": "Browse pharmacies with ORAQuick kits",
-      "howItWorks": "How Self-Testing Works",
-      "howItWorksSub": "Science, accuracy & window period"
+      "findKits": "Ka hel Xirmooyinka Tijaabada ee kuu Dhow",
+      "findKitsSub": "Baadh farmashiyada leh xirmooyinka ORAQuick",
+      "howItWorks": "Sida Is-Tijaabadu u Shaqeyso",
+      "howItWorksSub": "Sayniska, saxnaanta iyo muddada daaqadda"
     },
     "secondaryActions": {
-      "howToUse": "How To Use",
-      "howToUseSub": "5-step guide",
-      "readResults": "Read Results",
-      "readResultsSub": "Understand your test"
+      "howToUse": "Sida Loo Isticmaalo",
+      "howToUseSub": "Hage 5-tallaabo ah",
+      "readResults": "Akhri Natiijooyinka",
+      "readResultsSub": "Fahmo tijaabadaada"
     },
     "support": {
-      "sectionTitle": "Support & Education",
-      "chat": "Ask Anything",
-      "chatSub": "Anonymous assistant",
-      "community": "Community",
-      "communitySub": "You're not alone",
-      "learn": "Video Lessons",
-      "learnSub": "Learn at your pace",
-      "sexualHealth": "Sexual Health",
-      "sexualHealthSub": "STI info & prevention"
+      "sectionTitle": "Taageero & Waxbarasho",
+      "chat": "Weydii Wax Kasta",
+      "chatSub": "Kaaliye qarsoodi ah",
+      "community": "Bulsho",
+      "communitySub": "Kaligaa ma tihid",
+      "learn": "Casharro Fiidiyow ah",
+      "learnSub": "Ku baro xawaarahaaga",
+      "sexualHealth": "Caafimaadka Galmada",
+      "sexualHealthSub": "Macluumaadka STI iyo ka hortag"
     }
   },
   "findKits": {
-    "title": "Find Test Kits",
-    "subtitle": "ORAQuick · Near you",
-    "searchPlaceholder": "Search pharmacy or area...",
-    "found": "{count} found",
-    "noFound": "No pharmacies found",
-    "noFoundSub": "Try searching a different area or name",
-    "clearSearch": "Clear search",
-    "kitsInStock": "Kits in Stock",
-    "noKits": "No kits available",
-    "opens": "Opens 8 AM",
-    "viewDetails": "View Details",
-    "navigate": "Navigate"
+    "title": "Raadi Xirmooyinka Tijaabada",
+    "subtitle": "ORAQuick · kuu dhow",
+    "searchPlaceholder": "Raadi farmashi ama deegaan...",
+    "found": "{count} la helay",
+    "noFound": "Wax farmashi ah lama helin",
+    "noFoundSub": "Isku day meel ama magac kale",
+    "clearSearch": "Nadiifi raadinta",
+    "kitsInStock": "Xirmooyin yaal",
+    "noKits": "Xirmooyin ma jiraan",
+    "opens": "Wuxuu furmaa 8 subaxnimo",
+    "viewDetails": "Faahfaahin Eeg",
+    "navigate": "Hagid"
   },
   "testingCenters": {
-    "title": "Find Testing Centers",
-    "subtitle": "Confirmatory care · Near you",
-    "searchPlaceholder": "Search center or area...",
-    "found": "{count} found",
-    "noFound": "No testing centers found",
-    "noFoundSub": "Try searching a different area or center name",
-    "clearSearch": "Clear search",
-    "viewDetails": "View Details",
-    "navigate": "Navigate",
-    "notFound": "Testing center not found",
-    "backToList": "Back to list",
-    "contactAndHours": "Contact & Hours",
-    "hoursUnavailable": "Hours not available",
-    "confirmatoryTitle": "Confirmatory testing matters",
-    "confirmatoryBody": "After a reactive self-test, visit a health facility for a confirmatory blood test and next-step support as soon as possible.",
-    "navigateHere": "Navigate Here",
-    "call": "Call"
+    "title": "Raadi Goobaha Baaritaanka",
+    "subtitle": "Daryeel xaqiijin ah · kuu dhow",
+    "searchPlaceholder": "Raadi xarun ama deegaan...",
+    "found": "{count} la helay",
+    "noFound": "Wax xarumo baaritaan ah lama helin",
+    "noFoundSub": "Isku day deegaan ama magac kale",
+    "clearSearch": "Nadiifi raadinta",
+    "viewDetails": "Faahfaahin Eeg",
+    "navigate": "Hagid",
+    "notFound": "Xarunta baaritaanka lama helin",
+    "backToList": "Ku noqo liiska",
+    "contactAndHours": "Xiriir & Saacadaha",
+    "hoursUnavailable": "Saacadaha lama heli karo",
+    "confirmatoryTitle": "Baaritaanka xaqiijinta waa muhiim",
+    "confirmatoryBody": "Ka dib natiijo falcelin leh oo is-tijaabo ah, booqo xarun caafimaad si aad u hesho baaritaan dhiig oo xaqiijin ah iyo taageerada tallaabada xigta sida ugu dhaqsaha badan.",
+    "navigateHere": "Halkan U Soco",
+    "call": "Wac"
   },
   "howItWorks": {
     "badge": "ORAQuick · How It Works",

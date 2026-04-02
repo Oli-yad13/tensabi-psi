@@ -3,7 +3,7 @@ import { Montserrat } from 'next/font/google';
 import './globals.css';
 import { Providers } from './providers';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getLocale, getMessages } from 'next-intl/server';
 import AppLoadingScreen from '@/components/AppLoadingScreen';
 
 const montserrat = Montserrat({
@@ -23,9 +23,10 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale = await getLocale();
   const messages = await getMessages();
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={`${montserrat.variable} font-sans`} style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
         <NextIntlClientProvider messages={messages}>
           <AppLoadingScreen />

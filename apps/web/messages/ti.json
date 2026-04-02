@@ -1,16 +1,16 @@
 {
   "common": {
-    "back": "Back",
-    "open": "Open",
-    "closed": "Closed",
-    "learnMore": "Learn more",
-    "comingSoon": "Coming soon",
-    "privacyNote": "Your privacy is protected.",
-    "privacyDetail": "Anonymous browsing. No results stored without your permission.",
-    "noSignup": "No sign-up",
-    "anonymous": "Anonymous",
-    "free": "Free",
-    "share": "Share"
+    "back": "ተመለስ",
+    "open": "ክፉት",
+    "closed": "ዕጹው",
+    "learnMore": "ተወሳኺ ፍለጥ",
+    "comingSoon": "ብቕልጡፍ ይመጽእ",
+    "privacyNote": "ምስጢርካ ይጠበቕ እዩ።",
+    "privacyDetail": "ብዘይ ስም ምትዕዛብ። ብዘይ ፍቓድካ ውጽኢት ኣይቕመጥን።",
+    "noSignup": "ምዝገባ ኣየድልን",
+    "anonymous": "ብዘይ ስም",
+    "free": "ብነጻ",
+    "share": "ኣካፍል"
   },
   "lang": {
     "en": "English",
@@ -21,82 +21,82 @@
   },
   "home": {
     "tagline": "Tena-Sabi",
-    "headline": "Test\nPrivately.\nKnow Your\nStatus.",
-    "description": "Find ORAQuick HIV self-test kits near you — 100% anonymous, free guidance.",
+    "headline": "ብሕታዊ\nተመርመር።\nኩነታትካ\nፍለጥ።",
+    "description": "ናይ ORAQuick HIV ርእሰ-መርመራ ኪት ኣብ ቀረባኻ ርኸብ — 100% ብሕታዊ፣ ናጻ መምርሒ።",
     "stats": {
-      "locations": "Locations",
-      "accurate": "Accurate",
-      "dataStored": "Data stored"
+      "locations": "ቦታታት",
+      "accurate": "ትኽክለኛ",
+      "dataStored": "ዝተኸዘነ ሓበሬታ"
     },
-    "cta": "Get Started",
-    "footer": "No sign-up · Anonymous · Free"
+    "cta": "ጀምር",
+    "footer": "ምዝገባ የለን · ብዘይ ስም · ብነጻ"
   },
   "hivTest": {
-    "tagline": "HIV Self-Test",
-    "shopZemenGebya": "Shop on Zemen Gebya",
-    "headline": "Test Privately.\nKnow Your\nStatus.",
-    "description": "Find ORAQuick kits near you and learn how to use them correctly.",
+    "tagline": "ርእሰ-መርመራ HIV",
+    "shopZemenGebya": "ኣብ Zemen Gebya ዕደግ",
+    "headline": "ብሕታዊ ተመርመር።\nኩነታትካ\nፍለጥ።",
+    "description": "ናይ ORAQuick ኪት ኣብ ቀረባኻ ርኸብ እና ብትኽክል ከመይ ከም ዝጥቀም ተማሃር።",
     "stats": {
-      "pharmacies": "Pharmacies",
-      "accuracy": "Accuracy",
-      "guidance": "Guidance"
+      "pharmacies": "ፋርማሲታት",
+      "accuracy": "ትኽክለኛነት",
+      "guidance": "መምርሒ"
     },
     "primaryActions": {
-      "findKits": "Find Test Kits Near You",
-      "findKitsSub": "Browse pharmacies with ORAQuick kits",
-      "howItWorks": "How Self-Testing Works",
-      "howItWorksSub": "Science, accuracy & window period"
+      "findKits": "ኣብ ቀረባኻ ኪት ርኸብ",
+      "findKitsSub": "ORAQuick ኪት ዘለዎም ፋርማሲታት ድለ",
+      "howItWorks": "ርእሰ-መርመራ ከመይ ይሰርሕ",
+      "howItWorksSub": "ሳይንስ፣ ትኽክለኛነትን ግዜ መርመራን"
     },
     "secondaryActions": {
-      "howToUse": "How To Use",
-      "howToUseSub": "5-step guide",
-      "readResults": "Read Results",
-      "readResultsSub": "Understand your test"
+      "howToUse": "ከመይ ንጥቀም",
+      "howToUseSub": "5-ደረጃ መምርሒ",
+      "readResults": "ውጽኢት ኣንብብ",
+      "readResultsSub": "መርመራኻ ተረዳእ"
     },
     "support": {
-      "sectionTitle": "Support & Education",
-      "chat": "Ask Anything",
-      "chatSub": "Anonymous assistant",
-      "community": "Community",
-      "communitySub": "You're not alone",
-      "learn": "Video Lessons",
-      "learnSub": "Learn at your pace",
-      "sexualHealth": "Sexual Health",
-      "sexualHealthSub": "STI info & prevention"
+      "sectionTitle": "ድጋፍን ትምህርትን",
+      "chat": "ዝኾነ ነገር ሕተት",
+      "chatSub": "ብዘይ ስም ሓጋዚ",
+      "community": "ማሕበር",
+      "communitySub": "በይንኻ ኣይኮንካን",
+      "learn": "ቪድዮ ትምህርቲ",
+      "learnSub": "ብፍጥነትካ ተማሃር",
+      "sexualHealth": "ጥዕና ጾታ",
+      "sexualHealthSub": "STI ሓበሬታን መከላኸልን"
     }
   },
   "findKits": {
-    "title": "Find Test Kits",
-    "subtitle": "ORAQuick · Near you",
-    "searchPlaceholder": "Search pharmacy or area...",
-    "found": "{count} found",
-    "noFound": "No pharmacies found",
-    "noFoundSub": "Try searching a different area or name",
-    "clearSearch": "Clear search",
-    "kitsInStock": "Kits in Stock",
-    "noKits": "No kits available",
-    "opens": "Opens 8 AM",
-    "viewDetails": "View Details",
-    "navigate": "Navigate"
+    "title": "ኪት መርመራ ፈልጥ",
+    "subtitle": "ORAQuick · ኣብ ቀረባኻ",
+    "searchPlaceholder": "ፋርማሲ ወይ ቦታ ድለ...",
+    "found": "{count} ተረኺቡ",
+    "noFound": "ፋርማሲ ኣይተረኽበን",
+    "noFoundSub": "ካልእ ቦታ ወይ ስም ፈትን",
+    "clearSearch": "ምድላይ ኣጥፍእ",
+    "kitsInStock": "ኪት ኣብ መዝገብ ኣሎ",
+    "noKits": "ኪት የለን",
+    "opens": "8 ሰዓት ይኽፈት",
+    "viewDetails": "ዝርዝር ርአ",
+    "navigate": "ናብኡ ኪድ"
   },
   "testingCenters": {
-    "title": "Find Testing Centers",
-    "subtitle": "Confirmatory care · Near you",
-    "searchPlaceholder": "Search center or area...",
-    "found": "{count} found",
-    "noFound": "No testing centers found",
-    "noFoundSub": "Try searching a different area or center name",
-    "clearSearch": "Clear search",
-    "viewDetails": "View Details",
-    "navigate": "Navigate",
-    "notFound": "Testing center not found",
-    "backToList": "Back to list",
-    "contactAndHours": "Contact & Hours",
-    "hoursUnavailable": "Hours not available",
-    "confirmatoryTitle": "Confirmatory testing matters",
-    "confirmatoryBody": "After a reactive self-test, visit a health facility for a confirmatory blood test and next-step support as soon as possible.",
-    "navigateHere": "Navigate Here",
-    "call": "Call"
+    "title": "መርመራ ማእከላት ፈልጥ",
+    "subtitle": "ናይ ምርግጋጽ ክንክን · ኣብ ቀረባኻ",
+    "searchPlaceholder": "ማእከል ወይ ቦታ ድለ...",
+    "found": "{count} ተረኺቡ",
+    "noFound": "ማእከል መርመራ ኣይተረኽበን",
+    "noFoundSub": "ካልእ ቦታ ወይ ስም ማእከል ፈትን",
+    "clearSearch": "ምድላይ ኣጥፍእ",
+    "viewDetails": "ዝርዝር ርአ",
+    "navigate": "ናብኡ ኪድ",
+    "notFound": "ማእከል መርመራ ኣይተረኽበን",
+    "backToList": "ናብ ዝርዝር ተመለስ",
+    "contactAndHours": "ርክብን ሰዓታትን",
+    "hoursUnavailable": "ሰዓታት የለን",
+    "confirmatoryTitle": "ናይ ምርግጋጽ መርመራ ኣገዳሲ እዩ",
+    "confirmatoryBody": "ምላሽ ዝሃበ ርእሰ-መርመራ እንተሎ፣ ብቕልጡፍ ናብ ጥዕና ትካል ብምኻድ ናይ ደም መርመራ ምርግጋጽን ቀጻሊ ድጋፍን ርኸብ።",
+    "navigateHere": "ናብዚ ኪድ",
+    "call": "ደውል"
   },
   "howItWorks": {
     "badge": "ORAQuick · How It Works",
