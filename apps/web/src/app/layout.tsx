@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   title: 'Tena-Sabi — HIV Self-Test',
   description: 'Test Privately. Know Your Status.',
   icons: {
-    icon: '/psi-ethiopia.png',
-    shortcut: '/psi-ethiopia.png',
-    apple: '/psi-ethiopia.png',
+    icon: '/tena-sabi-icon.png',
+    shortcut: '/tena-sabi-icon.png',
+    apple: '/tena-sabi-icon.png',
   },
 };
 
